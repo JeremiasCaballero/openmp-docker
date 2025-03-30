@@ -10,7 +10,7 @@ This repository allows you to run OpenMP servers using Docker, eliminating the n
 ## Usage
 1. Clone the repository:
    ```sh
-   git clone [<repository_url>](https://github.com/JeremiasCaballero/openmp-docker.git)
+   git clone https://github.com/JeremiasCaballero/openmp-docker.git
 2. Build the image
    ```sh
    docker build -t samp-server .
