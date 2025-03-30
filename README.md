@@ -14,5 +14,10 @@ This repository allows you to run OpenMP servers using Docker, eliminating the n
 2. Build the image
    ```sh
    docker build -t samp-server .
+3. Run
+   ```sh
+    docker run -p 7777:7777/udp samp-server
+
 ## Acknowledgments
+
 To the entire OpenMP team and all the people who contribute daily.
